@@ -18,6 +18,13 @@ app.get('/v1/explorers', (req, res) => {
     const explorer3 = {id: 3, name: 'Ferch'};
     const explorerList = [explorer1, explorer2, explorer3];
     res.status(200).json(explorerList);
+});
+
+app.get('/v1/explorers/:id', (req, res) => {
+    console.log(`API Explorers GET request ${new Date()}`);
+    console.log(`Getting Explorer with id ${req.params.id}`);
+    const explorer = {id: 1, name: 'Carlo'};
+    res.status(200).json(explorer);
 })
 
 //Inicializando App
