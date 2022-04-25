@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/brandonruizmora/express_api/issues"
   },
-  "homepage": "https://github.com/brandonruizmora/express_api#readme"
+  "homepage": "https://github.com/brandonruizmora/express_api#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
 }
